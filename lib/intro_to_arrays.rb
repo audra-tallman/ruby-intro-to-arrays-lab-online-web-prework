@@ -28,23 +28,21 @@ def south_east_asia
   ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 end
     
-def first_element_with_array_methods(first_country)
-  first_country = first_element_with_array_methods(south_east_asia)
-  return south_east_asia.first
+def first_element_with_array_methods(south_east_asia)
+  south_east_asia.first
 end
 
 
-def last_element_with_array_methods(last_country)
-  last_country = last_element_with_array_methods(south_east_asia)
-  return south_east_asia.last
+def last_element_with_array_methods(south_east_asia)
+  south_east_asia.last
 end
 
 def programming_languages
   ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
 end
 
-def length_of_array
-  return programming_languages.length
+def length_of_array(programming_languages)
+  programming_languages.length
 end
 
   
